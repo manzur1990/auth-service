@@ -1,0 +1,32 @@
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de prueba
+*.test
+
+# Archivos de cobertura
+*.out
+
+# Directorios de dependencias
+/vendor/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Certificados
+/certs/*.pem
+/certs/*.key
+
+# Archivos de configuraci�n local
+.env
+config.local.yaml
+
+# Archivos binarios compilados
+bin/
